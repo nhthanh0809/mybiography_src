@@ -1,10 +1,10 @@
 ---
 title: Mahesh Sudhakar
 role: Research Assistant
-avatar_filename: ""
+avatar_filename: avatar.jpg
 organizations:
-  - name: Stanford University
-    url: ""
+  - name: University of Toronto
+    url: https://www.engineering.utoronto.ca/
 superuser: true
 authors:
   - admin
@@ -31,15 +31,12 @@ social:
     icon: linkedin
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: M.Eng in Electrical and Computer Engineering
+      institution: University of Toronto
+      year: 2020
+    - course: B.Eng in Electrical and Electronics Engineering
+      institution: Anna University
+      year: 2016
 email: ""
 user_groups:
   - Researchers
