@@ -15,7 +15,7 @@ interests:
   - Computer Vision
   - Robotics
   - Machine Learning
-  - Control.
+  - Control
 social:
   - icon: envelope
     icon_pack: fas
@@ -36,7 +36,7 @@ education:
       year: 2020
     - course: B.Eng in Electrical and Electronics Engineering
       institution: Anna University
-      year: 2016
+      year: ""
 email: ""
 user_groups:
   - Researchers
