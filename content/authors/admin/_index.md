@@ -1,19 +1,21 @@
 ---
 title: Mahesh Sudhakar
 role: Research Assistant
-avatar_filename: img_3759.jpg
+avatar_filename: ""
 organizations:
   - name: Stanford University
     url: ""
 superuser: true
 authors:
   - admin
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests include Computer Vision, Robotics, ADAS and Machine
+  Learning.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Explainable AI (XAI)
+  - Computer Vision
+  - Robotics
+  - Machine Learning
+  - and Control.
 social:
   - icon: envelope
     icon_pack: fas
@@ -43,7 +45,10 @@ user_groups:
   - Researchers
   - Visitors
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Welcome to my personal webpage!\
+\
+This is **Mahesh Sudhakar**, a recent M.Eng graduate from the Department of Electrical and Computer Engineering (ECE) at the University of Toronto. My graduate degree specialization was on Computer Vision, Perception, Robotics, and Machine Learning. I have 2+ years of full-time work experience as a back-end software developer.\
+\
+Currently I'm working as a Research Assistant at [Bell Multimedia Laboratory](http://www.dsp.utoronto.ca/), on eXplainable Artificial Intelligence (XAI), intending to decode the Deep Learning classification and detection models at the kernel level by developing novel algorithms to visualize the activation maps and investigating its corresponding super-pixels for steel surface detection. I also work on the student team of [aUToronto](https://www.autodrive.utoronto.ca/) - U of T's self-driving car project, as Simulation and Experimentation Engineer.\
+\
+I'm actively seeking full-time/contract job opportunities starting immediately.
