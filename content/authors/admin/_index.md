@@ -19,16 +19,13 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: "#contact"
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: mailto:mahesh.sudhakar@mail.utoronto.ca
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/smahesh2694
+  - link: https://www.linkedin.com/in/mahesh-sudhakar-utoronto/
+    icon_pack: fab
+    icon: linkedin
 education:
   courses:
     - course: PhD in Artificial Intelligence
