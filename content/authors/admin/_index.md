@@ -20,15 +20,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:mahesh.sudhakar@mail.utoronto.ca
+  - link: https://www.facebook.com/smahesh2694
+    icon_pack: fab
+    icon: facebook
   - icon: github
     icon_pack: fab
     link: https://github.com/smahesh2694
   - link: https://www.linkedin.com/in/mahesh-sudhakar-utoronto/
     icon_pack: fab
     icon: linkedin
-  - link: https://www.facebook.com/smahesh2694
-    icon_pack: fab
-    icon: facebook
 education:
   courses:
     - course: PhD in Artificial Intelligence
