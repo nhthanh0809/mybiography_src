@@ -52,4 +52,4 @@ I'm **Mahesh Sudhakar**, a recent M.Eng graduate from the Department of Electric
 \
 Currently I'm working as a Research Assistant at [Bell Multimedia Laboratory](http://www.dsp.utoronto.ca/), on eXplainable Artificial Intelligence (XAI), intending to decode the Deep Learning classification and detection models at the kernel level by developing novel algorithms to visualize the activation maps and investigating its corresponding super-pixels for steel surface detection. I also work on the student team of [aUToronto](https://www.autodrive.utoronto.ca/) - U of T's self-driving car project, as Simulation and Experimentation Engineer.\
 \
-I'm actively seeking `full-time/contract job opportunities` starting immediately.
+`I'm actively seeking full-time/contract job opportunities starting immediately.`
