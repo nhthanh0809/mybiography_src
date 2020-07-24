@@ -1,7 +1,7 @@
 +++
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
@@ -18,27 +18,29 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Research Assistant"
+  company = "University of Toronto"
+  company_url = "https://www.ece.utoronto.ca/"
+  location = "Toronto"
+  date_start = "2020-05-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+* Researcher in the Bell Multimedia Laboratory under the supervision of [Prof. Konstantinos (Kostas) N. Plataniotis](https://scholar.google.com/citations?hl=en&user=W-4N_2gAAAAJ&view_op=list_works&sortby=pubdate "Kostas Scholar") in collaboration with [LG Science Park](http://www.lgcorp.com/innovation/sciencepark/pr "LGSP") (LGSP), Seoul - working towards decoding complex 'black-box' Machine Learning classification and detection models.
+* Developing novel eXplainable AI (XAI) algorithms to be integrated along with LG's existing state-of-the-art industrial defect identification ML models.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Systems Engineer"
+  company = "Infosys Limited"
+  company_url = "https://www.infosys.com/"
+  location = "Bangalore"
+  date_start = "2016-05-30"
+  date_end = "2018-07-31"
+  description = """
+* Backend developer for the UK region of [AIMIA](https://www.aimia.com/) (formerly Groupe Aeroplan) - a data driven loyalty analytics company based out of Montreal.
+* Developed and maintained multiple MySQL stored procedures in the relational DB management system server.
+* Managed several diverse sensitive banking data regarding retail and logistics, and worked on automating (RPA) numerous regular IT processes through ActiveBatch tool.
+* Addressed many client specific functional requirements, and have quickly fixed various critical real-time issues with minimal supervision.
+  """
 
 +++
