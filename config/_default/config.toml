@@ -10,7 +10,7 @@ title = "Mahesh Sudhakar"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "smahesh2694.github.io"
+baseurl = "smahesh2694.github.io/"
 #mahesh-sudhakar.netlify.app/
 
 # Enter a copyright notice to display in the site footer.
