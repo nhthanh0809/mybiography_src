@@ -34,7 +34,6 @@ Hyperopt is an open-source hyperparameter tuning library written for Python. Hyp
 
 There are both continuous and categorical methods to describe the parameters.
 
-<img src="/img/hyperopt.png " width="600" height="800" />
 
 **Limitation**:
 Hyper-parameter takes a lot of time to tune the parameters if number of trials and number of epocs (iteration of the neural network) are higher (which is desired). Hence, it would be good to explore how to parallelize the tuning work.
