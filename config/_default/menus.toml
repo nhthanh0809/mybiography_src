@@ -49,8 +49,3 @@
     name = "Resume"
     url = "files/cv.pdf"
     weight = 70
-    
-[[main]]
-  name = "SISE"
-  url = "#sise"
-  weight = 80
