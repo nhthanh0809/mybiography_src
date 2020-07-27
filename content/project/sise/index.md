@@ -1,23 +1,7 @@
 ---
-# title: SISE
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
-
-
-layout: post
 title: "Hyperopt: A tool for parameter tuning"
+layout: post
 date: 2020-06-01 12:38:00 -0700
-comments: true
-tags: technical
 ---
 
 In deep learning, it is not easy to tune hyperparameters for optimal results. If we have 2 parameters (each with 3 prior desirable values), it is an easier problem. We will have possible combinations to try. However, with more parameters, the possible combinations will increase exponentially. For example, for 5 parameters, each with 4 desired values, we will have possible combinations. Manually trying each of them is not a very practical approach.
