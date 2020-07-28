@@ -49,3 +49,8 @@
     name = "Resume"
     url = "files/cv.pdf"
     weight = 70
+    
+[[main]]
+  name = "SISE"
+  url = "https://github.com/smahesh2694/SISE/blob/master/index.md"
+  weight = 80
