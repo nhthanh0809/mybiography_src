@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = "Professional and personal experience"
+subtitle = "Professional and part-time experiences"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   """
   
   [[experience]]
-  title = "Campus Event Ambassador"
+  title = "Campus Event Ambassador (Part-time)"
   company = "Academic & Campus Events, U of T"
   company_url = "https://ace.utoronto.ca/"
   location = "Toronto"
