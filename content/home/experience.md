@@ -1,12 +1,12 @@
 +++
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = false  # This file represents a page section.
+headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = ""
+subtitle = "Professional and personal experience"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -41,6 +41,31 @@ date_format = "Jan 2006"
 * Developed and maintained multiple MySQL stored procedures in the relational DB management system server.
 * Managed several diverse sensitive banking data regarding retail and logistics, and worked on automating (RPA) numerous regular IT processes through ActiveBatch tool.
 * Addressed many client specific functional requirements, and have quickly fixed various critical real-time issues with minimal supervision.
+  """
+  
+  [[experience]]
+  title = "Campus Event Ambassador"
+  company = "Academic & Campus Events, U of T"
+  company_url = "https://ace.utoronto.ca/"
+  location = "Toronto"
+  date_start = "2019-04-01"
+  date_end = "2020-04-01"
+  description = """
+* On-campus event ambassador.
+* Ushered guests and grads for graduation ceremonies at the convocation hall.
+* Co-Curricular Record (CCR) certified by Academic and Campus Events (ACE)</a>.
+  """
+  
+    [[experience]]
+  title = "Server Assistant (Part-time)"
+  company = "Rosalinda Restaurant"
+  company_url = "http://www.rosalindarestaurant.com/"
+  location = "Toronto"
+  date_start = "2019-03-15"
+  date_end = "2020-03-15"
+  description = """
+* Server Assistant at <a href="http://www.rosalindarestaurant.com/" target="_blank">Rosalinda</a>, a feel good Vegan Mexican restaurant at downtown Toronto.
+* Working at a fast paced service industry has provided me with many valuable life lessons and has improved my confidence, team spirit and communication skills.
   """
 
 +++
