@@ -8,12 +8,6 @@ weight = 70  # Order that this section will appear.
 title = "Skills"
 subtitle = ""
 
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-
 [[feature]]
   icon = ""
   icon_pack = ""
@@ -31,21 +25,53 @@ subtitle = ""
   icon_pack = ""
   name = "SQL"
   description = ""
-
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
-
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# [[feature]]
-#  icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+  
 
 +++
+
+<section class="split contact">
+  <style>
+    .center {
+    text-align: center;
+    /* border: 3px solid green; */
+    }
+    </style>		
+
+  <section>
+    <h2 class="center"><u>Skills</u></h2>
+    <br />
+    <div class="row">
+      <div class="col-6 col-12-small">
+        <dl>
+          <h3>Programming Languages</h3>
+          <dd>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>SQL</li>
+              <li>C#</li>
+              <li>HTML</li>
+            </ul>
+          </dd>											
+        </dl>										
+      </div>
+
+      <div class="col-6 col-12-small">
+        <dl>
+          <h3>Softwares &amp; Tools</h3>
+          <dd>
+            <ul>
+              <li>MATLAB</li>
+              <li>ActiveBatch</li>
+              <li>LaTeX</li>
+              <li>Git</li>
+              <li>ROS</li>
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>Keras</li>
+            </ul>
+          </dd>											
+        </dl>																				
+      </div>
+
+  </section>
