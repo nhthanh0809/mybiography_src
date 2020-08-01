@@ -24,7 +24,7 @@ social:
   - link: https://www.linkedin.com/in/mahesh-sudhakar-utoronto/
     icon_pack: fab
     icon: linkedin
-  - link: static/files/cv.pdf
+  - link: "files/cv.pdf"
     icon_pack: ai
     icon: cv
 education:
