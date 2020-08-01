@@ -23,10 +23,10 @@
 #  url = "#featured"
 #  weight = 40
   
-[[main]]
-  name = "Courses"
-  url = "#accomplishments"
-  weight = 45
+#[[main]]
+#  name = "Courses"
+#  url = "#accomplishments"
+#  weight = 45
   
 [[main]]
   name = "Skills"
@@ -50,7 +50,7 @@
     url = "files/cv.pdf"
     weight = 70
     
-[[main]]
-  name = "SISE"
-  url = "https://smahesh2694.github.io/SISE/"
-  weight = 80
+#[[main]]
+#  name = "SISE"
+#  url = "https://smahesh2694.github.io/SISE/"
+#  weight = 80
