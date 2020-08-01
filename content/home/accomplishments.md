@@ -41,9 +41,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "University of Toronto"
   organization_url = ""
-  title = "Deep Learning: Image Recognition
-  oopoop
-  jiji"
+  title = "Deep Learning: Image Recognition"
   title = "check2nitiongjhjh"
   url = ""
   certificate_url = ""
