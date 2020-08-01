@@ -28,7 +28,7 @@ image:
  
 ---
 
-[Code](https://github.com/smahesh2694/3D_detection_and_tracking_ROS)
+View code in Github : [Code](https://github.com/smahesh2694/3D_detection_and_tracking_ROS)
 
 Vision sensor data (RGB and Depth) collected from a **semi-humanoid robot** ‘Pepper’ provided by IATSL laboratory, 
 are used to perform 3D human detection and tracking within a household setup enabling better assistance to old or 
