@@ -8,21 +8,16 @@ organizations:
 superuser: true
 authors:
   - admin
-bio: My research interests include Computer Vision, Robotics, ADAS and Machine
-  Learning.
+bio: Computer Vision | Robotics | Machine Learning
 interests:
   - Explainable AI (XAI)
   - Computer Vision
   - Robotics
   - Machine Learning
-  - Control
 social:
   - icon: envelope
     icon_pack: fas
     link: mailto:mahesh.sudhakar@mail.utoronto.ca
-  - link: https://www.facebook.com/smahesh2694
-    icon_pack: fab
-    icon: facebook
   - icon: github
     icon_pack: fab
     link: https://github.com/smahesh2694
@@ -37,7 +32,7 @@ education:
     - course: B.Eng in Electrical and Electronics Engineering
       institution: Anna University
       year: ""
-email: ""
+email: "mahesh.sudhakar@mail.utoronto.ca"
 user_groups:
   - Researchers
   - Visitors
