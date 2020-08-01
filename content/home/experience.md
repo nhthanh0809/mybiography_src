@@ -56,17 +56,6 @@ date_format = "Jan 2006"
 * Co-Curricular Record (CCR) certified by Academic and Campus Events (ACE)</a>.
   """
   
-    [[experience]]
-  title = "Server Assistant (Part-time)"
-  company = "Rosalinda Restaurant"
-  company_url = "http://www.rosalindarestaurant.com/"
-  location = "Toronto"
-  date_start = "2019-03-15"
-  date_end = "2020-03-15"
-  description = """
-* Server Assistant at <a href="http://www.rosalindarestaurant.com/" target="_blank">Rosalinda</a>, a feel good Vegan Mexican restaurant at downtown Toronto.
-* Working at a fast paced service industry has provided me with many valuable life lessons and has improved my confidence, team spirit and communication skills.
-  """
   
   [design.background]
   # Apply a background color, gradient, or image.
