@@ -39,6 +39,8 @@ subtitle = "Technical"
 
 +++
 
+<p align="center">
+
 | Domain                          | Languages, Frameworks & Tools                           |
 |---------------------------------|---------------------------------------------------------|
 | Programming                     | Python, C++, SQL, C#                                    |
