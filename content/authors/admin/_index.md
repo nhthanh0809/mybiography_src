@@ -24,6 +24,9 @@ social:
   - link: https://www.linkedin.com/in/mahesh-sudhakar-utoronto/
     icon_pack: fab
     icon: linkedin
+  - link: 
+    icon_pack: ai
+    icon: cv
 education:
   courses:
     - course: M.Eng in Electrical and Computer Engineering
