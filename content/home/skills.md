@@ -39,7 +39,7 @@ subtitle = "Technical"
 
 +++
 
-<p align="center">
+<center>
 
 | Domain                          | Languages, Frameworks & Tools                           |
 |---------------------------------|---------------------------------------------------------|
@@ -47,3 +47,5 @@ subtitle = "Technical"
 | Machine Learning & Data Science | TensorFlow, Keras, PyTorch, Numpy, Pandas, Scikit-Learn |
 | Software & Tools                | MATLAB, ROS, Git, \LaTeX, ActiveBatch                   |
 | OS                              | Linus, Windows                                          |
+
+</center>
