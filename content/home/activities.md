@@ -1,6 +1,5 @@
----
-
-widget = ""  # See https://sourcethemes.com/academic/docs/page-builder/
++++
+widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
@@ -18,7 +17,8 @@ view: 3
 header:
   caption: ""
   image: ""
----
++++
+
 * Student mentor for incoming international grad students under the iConnect program of the <a href="https://www.studentlife.utoronto.ca/cie" target="_blank">Center for International Experience (CIE)</a> for the current academic year.
 
 * Campus Ambassador at the <a href="https://www.ace.utoronto.ca/" target="_blank">Academic and Campus Events (ACE)</a> and a part-time usher at the convocation hall.
