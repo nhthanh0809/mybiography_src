@@ -1,4 +1,5 @@
 +++
+
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
@@ -7,16 +8,6 @@ weight = 90  # Order that this section will appear.
 title = "Activities"
 subtitle = ""
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 3
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
 +++
 
 * Student mentor for incoming international grad students under the iConnect program of the <a href="https://www.studentlife.utoronto.ca/cie" target="_blank">Center for International Experience (CIE)</a> for the current academic year.
