@@ -2,7 +2,7 @@
 # A Skills section created with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Skills"
@@ -14,11 +14,23 @@ subtitle = "Technical"
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
-# [[feature]]
-#  icon = "r-project"
-#  icon_pack = "fab"
-#  name = "R"
-#  description = ""
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
+  description = ""
+  
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Statistics"
+  description = ""  
+  
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
+  name = "Photography"
+  description = ""
   
 
 # Uncomment to use emoji icons.
@@ -38,14 +50,3 @@ subtitle = "Technical"
 #  description = "90%"
 
 +++
-
-<center>
-
-| Domain                          | Languages, Frameworks & Tools                           |
-|---------------------------------|---------------------------------------------------------|
-| Programming                     | Python, C++, SQL, C#                                    |
-| Machine Learning & Data Science | TensorFlow, Keras, PyTorch, Numpy, Pandas, Scikit-Learn |
-| Software & Tools                | MATLAB, ROS, Git, \LaTeX, ActiveBatch                   |
-| OS                              | Linus, Windows                                          |
-
-</center>
