@@ -12,22 +12,18 @@ header:
   caption: ""
   image: ""
 ---
-* 06/20: I gave a talk on 'A Field Guide to TensorFlow Contributions' at Microsoft Open Source Software event, 2019. My talk can be watched [here](https://www.youtube.com/watch?v=-k-g89bo6zU). The slides of the talk can be seen [here](https://github.com/copperwiring/A-Field-Guide-To-TensorFlow-Contribution).
+* Student mentor for incoming international grad students under the iConnect program of the <a href="https://www.studentlife.utoronto.ca/cie" target="_blank">Center for International Experience (CIE)</a> for the current academic year.
 
-* 01/20: I was a [panelist](https://vancouverwitregatta2020.sched.com/event/WVhE/a-discourse-on-ethics-data-technology) at Women in Tech Regatta 2019 on the topic 'Debaising AI in a Changing World'. The panel was moderated by Steve Eccles (Regional CEO and Dean, Northeastern University). I joined other great panelists which included Krista Richmond (Director, Digital Innovation & Partnerships, Technical Safety BC) and Piyali Dey (Program Manager, Cloud Developer Relations, Microsoft).
+* Campus Ambassador at the <a href="https://www.ace.utoronto.ca/" target="_blank">Academic and Campus Events (ACE)</a> and a part-time usher at the convocation hall.
 
-* 01/20: I have joined the program committee of [Vancouver Datajam](https://www.vancouverdatajam.ca/), 2020.
+* VP Communications of the <a href="http://ecegss.sa.utoronto.ca/" target="_blank">ECE Graduate Students Society (ECEGSS)</a> for the academic year 2018-19.
 
-* 12/19: I am the organizer of NeurIPS Conference [official meetup](https://www.google.com/maps/d/u/0/viewer?mid=1ezbjW7AGg_9APIshVTu09uhJbXkMO5SI&ll=17.281210494679804%2C13.98394220000003&z=2) 2019 for Vancouver. As a part of this event I hosted talks from [Ishadi Jayasingha](https://www.linkedin.com/in/ishadijayasinghe/) (Researcher, University of Moratuwa), [Fatemehsadat Mireshghallah](https://cseweb.ucsd.edu/~fmireshg/) (Ph.D. student at UC San Diego ), [Meghana Moorthy](https://meghu2791.github.io/) (Ph.D student at Ohio State University). I also moderated a panel discussion with [Olga Vitek](https://www.khoury.northeastern.edu/people/olga-vitek/) (Professor, Director - MS in Data Science Khoury College of Computer Sciences, Northeastern University), [Ioana Baldini](https://researcher.watson.ibm.com/researcher/view.php?person=us-ioana) (Research Staff Member at IBM T.J. Watson) and [Annie Ying](http://www.annieying.ca/) (Manager of Cisco Data Science Lab in Vancouver), as panelists
-.
-* 10/19: I have joined the the organizing committee of 2020 [Women in Computer Vision Workshop](https://sites.google.com/view/wicvworkshop-cvpr2020/). I will be joining [Hazel Doughty](https://hazeldoughty.github.io/) (PhD student, University of Bristol), [Nour Karessli](https://www.linkedin.com/in/nour-karessli-8a35b739/) (Data Scientist at Zalando SE), [Azadeh Mobasher](https://www.linkedin.com/in/azadeh-mobasher/) (Senior Data Scientist, Microsoft), [Arsha Nagrani](https://www.robots.ox.ac.uk/~arsha/) (PhD student, University of Oxford), [Boyi Li](https://sites.google.com/site/boyilics/home) (PhD Student, Cornell University), Carianne Martinez (Sandia national Laboratories) and [Kathryn Leonard](https://www.oxy.edu/academics/faculty/kathryn-leonard) (Professor, Computer Science, Occidental College).
+* Volunteer event staff at Johnson & Johnson JLABS, MaRS Centre.
 
-* 10/19: I gave a talk on ['Exploring ML Model Interpretability using tf-explain'](https://www.meetup.com/PyLadies-Vancouver/events/265913103/) at PyLadies Vancouver.
+* Academic coordinator of EEE department during undergrad, acting as a liaison between faculty and students, and leading a team of 50 members to the coveted inter-departmental championship shield.
 
-* 9/19: I have joined the organizing committee of 2019 [Women in Machine Learning Workshop](https://wimlworkshop.org/2019/).
+* Runners-up in Texas Instruments India Analog Maker Competition conducted by TI University Program in association with Starcom Information Technology Limited, held for a period of one month.
 
-* 3/19: I was the workshop facilitator for [Global Diversity CFP day](https://ti.to/vancouver-global-diversity-cfp-day/global-diversity-cfp-day-yvr-2020/en), Vancouver. You can read about the attendee experience [here](https://www.linkedin.com/pulse/how-become-tech-conference-speaker-key-takeaways-from-wen-cai/).
+* Trained to be a Disaster Recovery Representative (DRR) at the workplace.
 
-* 8/18: I am the founding organizer of [Women in Machine Learning and Data Science](http://wimlds.org/about-the-vancouver-team/) chapter of Vancouver.
- 
-* 5/18: I will be mentoring the robotics team in the [AI4ALL](https://www.sfu.ca/computing/inventthefuture/past-cohorts/2018-program.html) program at Simon Fraser University.
+* Was an active member of <a href="https://www.facebook.com/www.serve360/" target="_blank">Serve 360</a>, an NGO dedicated to serve underprivileged kids around Chennai city area, India during undergrad.
