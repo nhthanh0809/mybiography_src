@@ -17,6 +17,7 @@ tags:
   - Git
   - ROS
   - Ubuntu
+  - Deep Learning
   
 external_link: 
 
