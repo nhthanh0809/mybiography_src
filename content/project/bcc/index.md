@@ -12,6 +12,7 @@ tags:
   - TensorFlow
   - Python
   - Jupyter Notebook
+  - Deep Learning
   
 external_link: 
 
