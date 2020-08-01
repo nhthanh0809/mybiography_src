@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 title = "Courses"
-subtitle = ""
+subtitle = "Graduate courses and MOOCs"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -22,30 +22,33 @@ date_format = "Jan 2006"
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
   title = "AI for Medical Diagnosis"
-  url = ""
+  url = "https://www.coursera.org/learn/ai-for-medical-diagnosis/home/welcome"
   certificate_url = "https://www.coursera.org/account/accomplishments/certificate/KR5AEUB8YLTZ"
   date_start = "2020-07-06"
   date_end = ""
-  description = "dflhnvdu"
+  description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Getting Started with Google Kubernetes Engine"
+  url = "https://www.coursera.org/learn/google-kubernetes-engine/home/welcome"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/DYTXCCN6BSHU"
+  date_start = "2020-06-15"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = ""
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "University of Toronto"
+  organization_url = ""
+  title = "Deep Learning: Image Recognition
+  oopoop
+  jiji"
+  title = "check2nitiongjhjh"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = ""
+  date_end = ""
   description = ""
 
 +++
