@@ -33,10 +33,7 @@ subtitle = "Visit my Github profile for complete list"
     name = "ROS"
     tag = "ROS"
     
-  [[content.filter_button]]
-    name = "C++"
-    tag = "C++"
-    
+   
   [[content.filter_button]]
     name = "Python"
     tag = "Python"
