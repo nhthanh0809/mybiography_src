@@ -24,7 +24,7 @@ social:
   - link: https://www.linkedin.com/in/mahesh-sudhakar-utoronto/
     icon_pack: fab
     icon: linkedin
-  - link: https://github.com/smahesh2694/academic-kickstart/blob/master/static/files/cv.pdf
+  - link: static/files/cv.pdf
     icon_pack: ai
     icon: cv
 education:
@@ -32,9 +32,9 @@ education:
     - course: M.Eng in Electrical and Computer Engineering
       institution: University of Toronto
       year: 2020
-    - course: B.Eng in Electrical and Electronics Engineering
+    - course: B.Eng in Electrical and Electronics Eng.
       institution: Anna University
-      year: ""
+      year: "2016"
 email: "mahesh.sudhakar@mail.utoronto.ca"
 user_groups:
   - Researchers
