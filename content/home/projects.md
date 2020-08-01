@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Visit my Github profile for complete list"
 
 [content]
   # Page type to display. E.g. project.
@@ -35,11 +35,11 @@ subtitle = ""
     
   [[content.filter_button]]
     name = "C++"
-    tag = "ROS"
+    tag = "C++"
     
   [[content.filter_button]]
     name = "Python"
-    tag = "ROS"
+    tag = "Python"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
