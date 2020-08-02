@@ -17,7 +17,7 @@ tags:
 external_link: 
 
 image:
-  filename: 
+  filename: featured.png
   focal_point: Smart
   preview_only: false
   caption: H&E stained pathology tissue
