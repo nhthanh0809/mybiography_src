@@ -20,6 +20,7 @@ tags:
 external_link: 
 
 image:
+  placement: 3
   filename: featured.png
   focal_point: Smart
   preview_only: false
