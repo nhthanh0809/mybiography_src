@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = "Professional and part-time experiences"
+subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -44,16 +44,14 @@ date_format = "Jan 2006"
   """
   
   [[experience]]
-  title = "Campus Event Ambassador (Part-time)"
-  company = "Academic & Campus Events, U of T"
-  company_url = "https://ace.utoronto.ca/"
+  title = "Autonomous Systems Simulation Engineer"
+  company = "aUToronto"
+  company_url = "https://www.autodrive.utoronto.ca/"
   location = "Toronto"
-  date_start = "2019-04-01"
-  date_end = "2020-04-01"
+  date_start = "2020-01-01"
+  date_end = "2020-06-30"
   description = """
-* On-campus event ambassador.
-* Ushered guests and grads for graduation ceremonies at the convocation hall.
-* Co-Curricular Record (CCR) certified by Academic and Campus Events (ACE)</a>.
+* Worked in the Simulation and Experimentation team of aUToronto (University of Toronto's self-driving car team) for SAE AutoDrive challenge, building virtual scenarios for the ego vehicle to drive through, thereby testing the pedestrian detection and tracking algorithm by exporting the sensor data to ROS environment.
   """
   
   
