@@ -26,6 +26,12 @@ image:
   caption: defect highlight
   alt_text: Defect highlight
   
+links:
+  - icon_pack: fab
+    icon: github
+    name: View Code 
+    url: 'https://github.com/smahesh2694/NEU_XAI/'
+  
 ---
 
 View code in Github : [Code]([Code](https://github.com/smahesh2694/NEU_XAI/))
