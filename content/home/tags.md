@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Demonstrated Skills"
+title = "Skills"
 subtitle = "Select to view associated Projects"
 
 [content]
@@ -17,6 +17,6 @@ subtitle = "Select to view associated Projects"
 
 [design]
   # Minimum and maximum font sizes (1.0 = 100%).
-  font_size_min = 1.0
-  font_size_max = 2.0
+  font_size_min = 0.8
+  font_size_max = 2.1
 +++
