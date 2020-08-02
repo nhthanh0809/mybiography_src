@@ -24,6 +24,7 @@ image:
   focal_point: Smart
   preview_only: false
   caption: defect highlight
+  alt_text: Defect highlight
   
 ---
 
