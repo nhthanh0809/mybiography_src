@@ -21,10 +21,14 @@ image:
   focal_point: Smart
   preview_only: false
   caption: H&E stained pathology tissue
+  
+links:
+  - icon_pack: fab
+    icon: github
+    name: View Code 
+    url: 'https://github.com/smahesh2694/Breast_Cancer_Classification'
  
 ---
-
-View code on Github : [Code](https://github.com/smahesh2694/Breast_Cancer_Classification)
 
 Trained a Convolutional Neural Network model, to classify and predict **Invasive Ductal Carcinoma** (IDC), 
 a specific type of breast cancer - with high accuracy, 
