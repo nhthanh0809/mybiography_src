@@ -10,7 +10,7 @@ subtitle = ""
 
 +++
 
-* Student mentor for incoming international grad students under the iConnect program of the <a href="https://www.studentlife.utoronto.ca/cie" target="_blank">Center for International Experience (CIE)</a> for the current academic year.
+* Mentored the incoming international graduate students during their initial transition under the iConnect program of the <a href="https://www.studentlife.utoronto.ca/cie" target="_blank">Center for International Experience (CIE)</a>, and facilitated intercultural learning by fostering inclusivity and equity.
 
 * Campus Ambassador at the <a href="https://www.ace.utoronto.ca/" target="_blank">Academic and Campus Events (ACE)</a> and a part-time usher at the convocation hall.
 
