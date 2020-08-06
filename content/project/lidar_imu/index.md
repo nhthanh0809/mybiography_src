@@ -26,3 +26,7 @@ image:
 Worked on a 6 DOF non-linear optimization problem to determine the pose vector relating an Inertial Measurement 
 Unit (IMU) to a LiDAR sensor based on the data collected on **Zeus self-driving car** during its operation.
 
+View a cool video of LiDAR point clouds: \
+<figure class="video_container">
+  <iframe src="https://youtu.be/W43blhxcAY0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
