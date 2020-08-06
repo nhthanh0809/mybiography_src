@@ -9,7 +9,6 @@ title = "Activities"
 subtitle = ""
 
 +++
-
 # Volunteering
 
 #### Student Mentor
