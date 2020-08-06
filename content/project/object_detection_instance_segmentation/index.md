@@ -18,8 +18,7 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-  caption:  
- 
+  caption: YOLO detections, calculated Depth and Segmentation mask
 links:
   - icon_pack: fab
     icon: github
