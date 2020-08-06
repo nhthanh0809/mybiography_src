@@ -1,6 +1,6 @@
 ---
 title: "Feature Detection and Matching"
-subtitle: 
+subtitle: AER1515 - *Perception for Robotics* - UTIAS
 layout: post
 date: 2020-07-30 12:38:00 -0700
 
@@ -18,7 +18,7 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-  caption:  
+  caption: RANSAC feature matching with horizontal contrainst
   
 links:
   - icon_pack: fab
@@ -27,10 +27,6 @@ links:
     url: 'https://github.com/smahesh2694/Feature-Detection-and-Matching---OpenCV'
  
 ---
-
-Assignment 1 of grad course AER1515 - *Perception for Robotics* - UTIAS
-
-**Abstract**
 
 This project implements feature point detection and its matching between stereo pair images from KITTI
 dataset. For a given input RGB image from left camera, the features which are described to be an image
@@ -44,7 +40,7 @@ been implemented on the match pairs, and promising results have been noted. The 
 tuned on train images by evaluating the results for corresponding changes to its confidence and
 reprojection threshold values.
 
-**[Code](https://github.com/smahesh2694/Feature-Detection-and-Matching---OpenCV)**
+**[View Code here](https://github.com/smahesh2694/Feature-Detection-and-Matching---OpenCV)**
 
 This is a python notebook .ipynb file created on Colab, converted to a .py file.
 The dataset is accessed by mounting the google drive. Please change the path of dataset accordingly in ```line 259.```
