@@ -33,7 +33,6 @@ links:
     name: View Source Code 
     url: 'https://github.com/smahesh2694/NEU_XAI/'
     
-links:
   - icon_pack: fab
     icon: github
     name: Supplementary Code 
