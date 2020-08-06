@@ -51,6 +51,4 @@ Repo consists of :
 </ol>
 
 Sample images from NEU dataset :
-| ![Sample images from NEU dataset](https://github.com/smahesh2694/NEU_XAI/blob/master/NEU_dataset%20image.jpeg?raw=true) |
-|:--:| 
-| *Sample images of all 6 classes* |
+[Sample images from NEU dataset](https://github.com/smahesh2694/NEU_XAI/blob/master/NEU_dataset%20image.jpeg?raw=true)
