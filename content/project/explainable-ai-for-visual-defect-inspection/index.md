@@ -30,12 +30,18 @@ image:
 links:
   - icon_pack: fab
     icon: github
-    name: View Code 
+    name: View Source Code 
     url: 'https://github.com/smahesh2694/NEU_XAI/'
-  
+    
+links:
+  - icon_pack: fab
+    icon: github
+    name: Supplementary Code 
+    url: 'https://github.com/smahesh2694/MVTec_GradCAM/'
+    
 ---
 
-Developed and studied XAI algorithms that generates saliency maps according to the importance of each corresponding pixels of the input test image towards the Machine Learning model's predictive accuracy, with the aim of decoding complex 'black-box' models.
+Developed and studied XAI algorithms that generates saliency maps according to the importance of each corresponding pixels of the input test image towards the Machine Learning model's predictive accuracy, with the aim of decoding complex 'black-box' models. 
 
 ### [NEU_XAI](https://github.com/smahesh2694/NEU_XAI/)
 
