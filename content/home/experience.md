@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2020-05-01"
   date_end = ""
   description = """
-* Researcher in the Bell Multimedia Laboratory under the supervision of [Prof. Konstantinos (Kostas) N. Plataniotis](https://scholar.google.com/citations?hl=en&user=W-4N_2gAAAAJ&view_op=list_works&sortby=pubdate "Kostas Scholar") in collaboration with [LG Science Park](http://www.lgcorp.com/innovation/sciencepark/pr "LGSP") (LGSP), Seoul - working towards decoding complex 'black-box' Machine Learning classification and detection models.
+* Post-graduate researcher at Bell Multimedia Laboratory under the supervision of [Prof. Konstantinos (Kostas) N. Plataniotis](https://scholar.google.com/citations?hl=en&user=W-4N_2gAAAAJ&view_op=list_works&sortby=pubdate "Kostas Scholar") in collaboration with [LG Science Park](http://www.lgcorp.com/innovation/sciencepark/pr "LGSP") (LGSP), Seoul - working towards decoding complex 'black-box' residual Machine Learning classification and detection models.
 * Developing novel eXplainable AI (XAI) algorithms to be integrated along with LG's existing state-of-the-art industrial defect identification ML models.
   """
 
@@ -51,7 +51,9 @@ date_format = "Jan 2006"
   date_start = "2020-01-01"
   date_end = "2020-06-30"
   description = """
-* Worked in the Simulation and Experimentation team of aUToronto (University of Toronto's self-driving car team) for SAE AutoDrive challenge, building virtual scenarios for the ego vehicle to drive through, thereby testing the pedestrian detection and tracking algorithm by exporting the sensor data to ROS environment.
+* Worked in the Simulation and Experimentation team of aUToronto (University of Toronto's self-driving car team) for SAE AutoDrive challenge.
+* Tested the existing pedestrian detection and tracking stack with virtual data.
+* Designed and built various driving scenarios in simulation environment.
   """
   
   
