@@ -26,4 +26,4 @@ subtitle = ""
 
 * Was an active member of <a href="https://www.facebook.com/www.serve360/" target="_blank">Serve 360</a>, an NGO dedicated to serve underprivileged kids around Chennai city area, India during undergrad.
 
-* `View my Cocurricular record [here](files/Mahesh_Sudhakar_CCR.pdf)`
+* `View my Cocurricular record` [here](files/Mahesh_Sudhakar_CCR.pdf)
