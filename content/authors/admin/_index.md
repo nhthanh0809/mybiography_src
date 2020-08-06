@@ -10,9 +10,9 @@ authors:
   - admin
 bio: Computer Vision | Robotics | Machine Learning
 interests:
-  - Explainable AI (XAI)
   - Computer Vision
-  - Robotics
+  - Explainable AI (XAI)
+  - Robotics and Control
   - Machine Learning
 social:
   - icon: envelope
@@ -32,7 +32,7 @@ education:
     - course: M.Eng in Electrical and Computer Engineering
       institution: University of Toronto
       year: 2020
-    - course: B.Eng in Electrical and Electronics Eng.
+    - course: B.E in Electrical and Electronics Engineering
       institution: Anna University
       year: "2016"
 email: "mahesh.sudhakar@mail.utoronto.ca"
@@ -40,7 +40,8 @@ user_groups:
   - Researchers
   - Visitors
 ---
-I'm **Mahesh Sudhakar**, a recent M.Eng graduate from the Department of Electrical and Computer Engineering (ECE) at the University of Toronto. My graduate degree specialization was on Computer Vision, Perception, Robotics, and Machine Learning. I have 2+ years of full-time work experience as a back-end software developer.\
-Currently I'm working as a Research Assistant at [Bell Multimedia Laboratory](http://www.dsp.utoronto.ca/ "Bell Lab"), on eXplainable Artificial Intelligence (XAI), intending to decode the Deep Learning classification and detection models at the kernel level by developing novel algorithms to visualize the activation maps and investigating its corresponding super-pixels for steel surface detection. I also work on the student team of [aUToronto](https://www.autodrive.utoronto.ca/ "autodrive") - U of T's self-driving car project, as Simulation and Experimentation Engineer.\
+I'm **Mahesh Sudhakar**, a recent M.Eng graduate from the Department of Electrical and Computer Engineering (ECE) at the University of Toronto. My graduate degree specialization was on Computer Vision, Perception, Robotics, and Machine Learning. I have 2+ years of full-time work experience as a backend software developer.\
 \
-`I'm actively seeking full-time/contract job opportunities starting immediately.` 
+Currently, I'm working as a Research Assistant at [Bell Multimedia Laboratory](http://www.dsp.utoronto.ca/ "Bell Lab"), on eXplainable Artificial Intelligence (XAI), intending to decode deep residual Machine Learning classification and detection models at the kernel level by developing novel algorithms to visualize the activation maps and investigating their corresponding super-pixels for steel surface detection. I also work on the student team of [aUToronto](https://www.autodrive.utoronto.ca/ "autodrive") - U of T's self-driving car project, as Simulation and Experimentation Engineer.\
+\
+`I'm actively seeking full-time job opportunities starting immediately.` 
