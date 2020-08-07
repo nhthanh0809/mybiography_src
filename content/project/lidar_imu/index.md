@@ -20,6 +20,12 @@ image:
   focal_point: Smart
   preview_only: false
   caption:  
+  
+links:
+  - icon_pack: fab
+    icon: youtube
+    name: Video
+    url: 'https://www.youtube.com/embed/W43blhxcAY0?autoplay=1&origin=http://example.com'
  
 ---
 
