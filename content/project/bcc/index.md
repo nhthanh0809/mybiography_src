@@ -49,5 +49,5 @@ For more information about the data used,
 see [here](https://www.ncbi.nlm.nih.gov/pubmed/27563488) and [here](http://spie.org/Publications/Proceedings/Paper/10.1117/12.2043872).
 
 Reference:
-[1]. Adrian Rosebrock, Breast cancer classification with Keras and Deep Learning, PyImageSearch, https://www.pyimagesearch.com/2019/02/18/breast-cancer-classification-with-keras-and-deep-learning/, accessed on 22 February 2019.
+[1]. Adrian Rosebrock, Breast cancer classification with Keras and Deep Learning, PyImageSearch, https://www.pyimagesearch.com/2019/02/18/breast-cancer-classification-with-keras-and-deep-learning/ , accessed on 22 February 2019.
 
