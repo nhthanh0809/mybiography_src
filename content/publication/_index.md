@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation"
 
 # View.
 #   1 = List
@@ -34,19 +34,8 @@ links:
     
 ---
 
-Vision sensor data (RGB and Depth) collected from a **semi-humanoid robot** ‘Pepper’ provided by IATSL laboratory, 
-are used to perform 3D human detection and tracking within a household setup enabling better assistance to old or 
-sick-adults in home-care. Implemented **YOLOv3** for 2D detection and used the **depth map** to cluster the 3D region of the 
-patient, which is passed to an Extended Kalman Filter in ROS environment to track the patient.
+### Abstract
 
-Clone the workspace provided on Github and build it. 
+As an emerging field in Machine Learning, **Explainable AI (XAI)** has been offering remarkable performance in interpreting the decisions made by Convolutional Neural Networks (CNNs). To achieve visual explanations for CNNs, methods based on class activation mapping and randomized input sampling have gained great popularity. However, the attribution methods based on these techniques provide lower-resolution and blurry explanation maps that limit their explanation power. To circumvent this issue, visualization based on various layers is sought. In this work, we collect visualization maps from multiple layers of the model based on an attribution-based input sampling technique and aggregate them to reach a fine-grained and complete explanation. We also propose a layer selection strategy that applies to the whole family of CNN-based models, based on which our extraction framework is applied to visualize the last layers of each convolutional block of the model. Moreover, we perform an empirical analysis of the efficacy of derived lower-level information to enhance the represented attributions. Comprehensive experiments conducted on shallow and deep models trained on natural and industrial datasets, using both ground-truth and model-truth based evaluation metrics validate our proposed algorithm by meeting or outperforming the state-of-the-art methods in terms of explanation ability and visual quality, demonstrating that our method shows stability regardless of the size of objects or instances to be explained.
 
-Reproduce the results using launch command,
-```
-$ roslaunch det_and_tracking
-```
 
-{{% alert note %}}
-If it throws an error, create a new workspace following ros tutorials 
-and copy `/src`'s contents to the New workspace's  `src` and re-build it. 
-{{% /alert %}}
