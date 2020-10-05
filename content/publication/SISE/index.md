@@ -3,12 +3,12 @@ title = "eurobarometer R package"
 date = 2020-06-25T16:00:00
 draft = false
 
-authors = 
+# authors = 
 
 # Publication type.
 # Legend:
 
-publication_types = ["0"]
+publication_types = ["3"]
 
 # Abstract and optional shortened version.
 abstract = "The goal of eurobarometer is converting Eurobarometer microdata files, as stored by GESIS, into tidy R data frames and help common pre-processing problems."
@@ -19,9 +19,9 @@ abstract_short = "The goal of eurobarometer is converting Eurobarometer microdat
 featured = true
 
 # Projects (optional).
-projects = ["R", "opendata"]
-categories = ["R"]
-tags = ["r-bloggers", "eurobarometer", "surveys"]
+projects = ""
+categories = ""
+tags = ""
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -47,7 +47,7 @@ url_source = ""
 url_custom = [{name = "Github Repo", url = "https://github.com/antaldaniel/eurobarometer/"}]
 
 # Digital Object Identifier (DOI)
-doi = "10.5281/zenodo.3901724"
+doi = ""
 
 # Does this page contain LaTeX math? (true/false)
 math = false
