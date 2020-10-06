@@ -3,7 +3,7 @@ title = "Explaining Convolutional Neural Networks through Attribution-Based Inpu
 date = 2020-10-01T16:00:00
 draft = false
 
-# authors = 
+authors = ["Sam Sattarzadeh", "Mahesh Sudhakar", "Anthony Lem", "Shervin Mehryar", "K. N. Plataniotis", "Jongseong Jang", "Hyunwoo Kim", "Yeonjeong Jeong", "Sangmin Lee", "Kyunghoon Bae"]
 
 # Publication type.
 # Legend:
@@ -55,7 +55,7 @@ math = false
 # Featured image
 [image]
   # Caption (optional)
-  caption = ""
+  caption = "Global overview of the Proposed framework - SISE"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
