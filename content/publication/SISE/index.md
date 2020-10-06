@@ -33,7 +33,7 @@ slides = ""
 
 # Links (optional).
 url_pdf = "https://arxiv.org/pdf/2010.00672.pdf"
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/2010.00672"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -59,5 +59,5 @@ math = false
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "TopLeft"
+  focal_point = "Center"
 +++
