@@ -36,11 +36,11 @@ url_pdf = "https://arxiv.org/pdf/2010.00672.pdf"
 url_preprint = "https://arxiv.org/abs/2010.00672"
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "https://smahesh2694.github.io/sise_webpage/sise_blog"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://smahesh2694.github.io/sise_webpage/"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
