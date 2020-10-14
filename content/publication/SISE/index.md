@@ -40,7 +40,7 @@ url_project = "https://smahesh2694.github.io/sise_webpage/sise_blog"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://smahesh2694.github.io/sise_webpage/"
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -71,3 +71,32 @@ A global overview of our proposed framework for SISE describing the multiple pha
     <br>
     <em>Fig: Global overview of the Proposed framework</em>
 </p>
+
+# Results
+
+A sample qualitative comparison of the explanation maps generated from our algorithm to other conventional methods can be seen below. To view more qualitative results, please see our [preprint paper](https://arxiv.org/pdf/2010.00672.pdf).
+
+<p align="center">
+    <img src="docs/sise_webpage_1.svg" alt="SISE_Results" />
+    <br>
+    <em>Fig: Comparison of other existing XAI methods with SISE (last column) to demonstrate SISE’s ability to generate class discriminative explanations on a ResNet-50 model.</em>
+</p>
+
+# Cite 
+Consider citing our work as below, if you find it useful in your research:
+```
+@misc{sattarzadeh2020explaining,
+      title={Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation}, 
+      author={Sam Sattarzadeh and Mahesh Sudhakar and Anthony Lem and Shervin Mehryar and K. N. Plataniotis and Jongseong Jang and Hyunwoo Kim and Yeonjeong Jeong and Sangmin Lee and Kyunghoon Bae},
+      year={2020},
+      eprint={2010.00672},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+---
+
+Our paper has been submitted to the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**) and is currently under review.
+
+**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the AI Division of LG Science Park.**
