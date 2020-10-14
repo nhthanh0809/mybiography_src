@@ -50,7 +50,7 @@ url_source = "https://smahesh2694.github.io/sise_webpage/"
 doi = ""
 
 # Does this page contain LaTeX math? (true/false)
-math = false
+math = true
 
 # Featured image
 [image]
@@ -61,3 +61,13 @@ math = false
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Center"
 +++
+
+## Overview
+
+A global overview of our proposed framework for SISE describing the multiple phases is attached in the figure below. To know more about each phase in detail along with a summary of our algorithm, please read the [technical blog post](https://smahesh2694.github.io/sise_webpage/sise_blog).
+
+<p align="center">
+    <img src="docs/arch_box.svg" alt="SISE_Architecture_block" />
+    <br>
+    <em>Fig: Global overview of the Proposed framework</em>
+</p>
