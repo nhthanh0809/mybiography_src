@@ -1,7 +1,10 @@
 ---
 title: Mahesh Sudhakar
-role: Computer Vision Intern & Research Associate
+role: Computer Vision Intern | Research Associate
 avatar_filename: avatar.jpg
+organizations:
+  - name: Musashi Americas
+    url: https://musashiamericas.com/
 organizations:
   - name: University of Toronto
     url: https://www.engineering.utoronto.ca/
