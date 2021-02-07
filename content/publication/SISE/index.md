@@ -37,9 +37,9 @@ url_preprint = "https://arxiv.org/abs/2010.00672"
 url_code = ""
 url_dataset = ""
 url_project = "https://smahesh2694.github.io/sise_webpage/sise_blog"
-url_slides = ""
-url_video = ""
-url_poster = ""
+url_slides = "docs/SISE_AAAI_ppt.pptx"
+url_video = "https://studio.slideslive.com/web_recorder/share/20210108T221249Z__AAAI__7570__explaining-convolutional-neura?s=f048878d-49a9-45b6-9957-b8174d9f56e1"
+url_poster = "docs/SISE_AAAI_Poster.pdf"
 url_source = ""
 
 # Custom links (optional).
@@ -97,6 +97,6 @@ Consider citing our work as below, if you find it useful in your research:
 
 ---
 
-Our paper has been submitted to the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**) and is currently under review.
+Our paper has been published virtually at the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**).
 
-**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the AI Division of LG Science Park.**
+**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and LG AI Research**
