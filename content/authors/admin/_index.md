@@ -40,6 +40,9 @@ user_groups:
   - Researchers
   - Visitors
 ---
-I'm **Mahesh Sudhakar**, a recent M.Eng graduate from the Department of Electrical and Computer Engineering (ECE) at the University of Toronto. My graduate degree specialization was on Computer Vision, Perception, Robotics, and Machine Learning. I have 2+ years of full-time work experience as a backend software developer.\
-\
-Currently, I'm working as a Research Associate at [Bell Multimedia Laboratory](http://www.dsp.utoronto.ca/ "Bell Lab"), on eXplainable Artificial Intelligence (XAI), intending to decode deep residual Machine Learning classification and detection models at the kernel level by developing novel algorithms to visualize the activation maps and investigating their corresponding super-pixels for steel surface detection. I also work on the student team of [aUToronto](https://www.autodrive.utoronto.ca/ "autodrive") - U of T's self-driving car project, as Simulation and Experimentation Engineer.
+* Post-graduate Research Associate (contract part-time) at Bell Multimedia Laboratory (UofT), working in the field of eXplainable Artificial Intelligence (XAI) and a Computer Vision Intern (winter 2021) at [Musashi Auto Parts Canada](https://musashiamericas.com/ai-project2/).
+* Master's graduate in **Computer Vision** and **Robotics** from the Department of Electrical and Computer Engineering (ECE) at the University of Toronto (Class of 2020).
+* Detail-oriented Machine Learning (AI) Engineer with 2+ years of full-time international work experience in backend software development, database management (SQL), and application support.
+* [NEWS] Our paper on novel XAI algorithm "Semantic Input Sampling for Explanation" was ACCEPTED for **AAAI-21** conference.
+* [NEWS] Two new papers - "Ada-SISE" and "Integrated Grad-CAM" - ACCEPTED for IEEE **ICASSP-21** conference.
+
