@@ -1,6 +1,6 @@
 ---
 title: Mahesh Sudhakar
-role: Research Associate
+role: Computer Vision Intern & Research Associate
 avatar_filename: avatar.jpg
 organizations:
   - name: University of Toronto
