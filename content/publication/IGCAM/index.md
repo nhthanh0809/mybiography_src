@@ -34,7 +34,7 @@ slides = ""
 # Links (optional).
 url_pdf = ""
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/smstrzd/IntegratedGradCAM"
 url_dataset = ""
 url_project = ""
 url_slides = ""
