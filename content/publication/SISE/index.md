@@ -31,13 +31,14 @@ tags = "XAI"
 #   Otherwise, set `slides = ""`.
 slides = ""
 
+# https://arxiv.org/pdf/2010.00672.pdf
 # Links (optional).
-url_pdf = "docs/SISE_AAAI_final.pdf"
 url_preprint = "https://arxiv.org/abs/2010.00672"
 url_code = ""
 url_dataset = ""
-url_project = "https://smahesh2694.github.io/sise_webpage/sise_blog"
+url_project = "https://www.utoronto.ca/news/researchers-u-t-and-lg-develop-explainable-artificial-intelligence-algorithm"
 url_slides = "docs/SISE_AAAI_ppt.pdf"
+url_pdf = "docs/SISE_AAAI_final.pdf"
 url_video = "https://studio.slideslive.com/web_recorder/share/20210108T221249Z__AAAI__7570__explaining-convolutional-neura?s=f048878d-49a9-45b6-9957-b8174d9f56e1"
 url_poster = "docs/SISE_AAAI_Poster.pdf"
 url_source = ""
