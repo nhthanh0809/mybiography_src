@@ -18,15 +18,17 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Computer Vision Intern"
+  title = "AI Engineer"
   company = "Musashi Auto Parts Canada"
-  company_url = "https://musashiamericas.com/ai-project2/"
+  company_url = "https://musashiamericas.com/ai-project/
   location = "Waterloo"
   date_start = "2021-01-04"
   date_end = ""
   description = """
-* Working on real-time instance segmentation of manufacturing defects that is to be deployed on industrial robotic manipulators through NVIDIA’s edge devices.
+* Building Intelligent edge devices for Industrial Automation.
+* Owner of the full lifecycle of 'Real Time Instance Segmentation' at Musashi AI North America.
 * Automated the cumbersome data annotation process.
+* Working together with Machine Build team on a daily basis, to optimize camera and sensor positions on FANUC Industrial series robotic manipulator arms.
   """
   
 [[experience]]
@@ -35,11 +37,11 @@ date_format = "Jan 2006"
   company_url = "https://www.ece.utoronto.ca/"
   location = "Toronto"
   date_start = "2020-05-01"
-  date_end = ""
+  date_end = "2021-02-28"
   description = """
-* Post-graduate researcher at Bell Multimedia Laboratory under the supervision of [Prof. Konstantinos (Kostas) N. Plataniotis](https://scholar.google.com/citations?hl=en&user=W-4N_2gAAAAJ&view_op=list_works&sortby=pubdate "Kostas Scholar") in collaboration with [LG AI Research](https://www.lgresearch.ai/ "LGSP"), working towards decoding deep residual 'black-box' Machine Learning classification and detection models.
-* Proposed and developed a novel eXplainable AI algorithm, "Semantic Input Sampling for Explanation" (SISE), that was integrated along with LG's existing industrial code stack for fully automated supervision.
-* Read LG AI Research's official blog [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799).
+* Post-graduate researcher at Bell Multimedia Laboratory under the supervision of [Prof. Konstantinos (Kostas) N. Plataniotis](https://scholar.google.com/citations?hl=en&user=W-4N_2gAAAAJ&view_op=list_works&sortby=pubdate "Kostas Scholar") in collaboration with [LG AI Research](https://www.lgresearch.ai/), working towards decoding deep residual 'black-box' Machine Learning classification and detection models.
+* Proposed and developed a novel eXplainable AI algorithm, [Semantic Input Sampling for Explanation](https://ojs.aaai.org/index.php/AAAI/article/view/17384) (SISE), that was integrated along with LG's existing industrial code stack for fully automated supervision.
+* Read LG AI Research's official blog [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean) OR [here](https://www.lgresearch.ai/blog/view/?seq=67) (English).
   """
 
 [[experience]]
