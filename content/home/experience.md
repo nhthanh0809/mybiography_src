@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "AI Engineer"
   company = "Musashi Auto Parts Canada"
-  company_url = "https://musashiamericas.com/ai-project/
+  company_url = "https://musashiamericas.com/ai-project/"
   location = "Waterloo"
   date_start = "2021-01-04"
   date_end = ""
