@@ -3,7 +3,7 @@ title = "Explaining Convolutional Neural Networks through Attribution-Based Inpu
 date = 2020-10-01T16:00:00
 draft = false
 
-authors = ["Sam Sattarzadeh", "**Mahesh Sudhakar**", "Anthony Lem", "Shervin Mehryar", "K. N. Plataniotis", "Jongseong Jang", "Hyunwoo Kim", "Yeonjeong Jeong", "Sangmin Lee", "Kyunghoon Bae"]
+authors = ["Sam Sattarzadeh", "Mahesh Sudhakar", "Anthony Lem", "Shervin Mehryar", "K. N. Plataniotis", "Jongseong Jang", "Hyunwoo Kim", "Yeonjeong Jeong", "Sangmin Lee", "Kyunghoon Bae"]
 
 # Publication type.
 # Legend:
@@ -32,7 +32,7 @@ tags = "XAI"
 slides = ""
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2010.00672.pdf"
+url_pdf = "docs/SISE_AAAI_final.pdf"
 url_preprint = "https://arxiv.org/abs/2010.00672"
 url_code = ""
 url_dataset = ""
@@ -85,14 +85,17 @@ A sample qualitative comparison of the explanation maps generated from our algor
 # Cite 
 Consider citing our work as below, if you find it useful in your research:
 ```
-@misc{sattarzadeh2020explaining,
-      title={Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation}, 
-      author={Sam Sattarzadeh and Mahesh Sudhakar and Anthony Lem and Shervin Mehryar and K. N. Plataniotis and Jongseong Jang and Hyunwoo Kim and Yeonjeong Jeong and Sangmin Lee and Kyunghoon Bae},
-      year={2020},
-      eprint={2010.00672},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@article{Sattarzadeh_Sudhakar, 
+title={Explaining Convolutional Neural Networks through Attribution-Based Input    Sampling and Block-Wise Feature Aggregation}, 
+volume={35}, 
+url={https://ojs.aaai.org/index.php/AAAI/article/view/17384}, 
+number={13}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Sattarzadeh, Sam and Sudhakar, Mahesh and Lem, Anthony and Mehryar, Shervin and Plataniotis, Konstantinos N and Jang, Jongseong and Kim, Hyunwoo and Jeong, Yeonjeong and Lee, Sangmin and Bae, Kyunghoon}, 
+year={2021}, 
+month={May}, 
+pages={11639-11647} }
+
 ```
 
 ---
