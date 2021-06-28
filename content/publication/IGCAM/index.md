@@ -21,7 +21,7 @@ featured = true
 # Projects (optional).
 projects = ""
 categories = ""
-tags = ""
+tags = "XAI"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -32,14 +32,14 @@ tags = ""
 slides = ""
 
 # Links (optional).
-url_pdf = ""
-url_preprint = ""
+url_pdf = "https://ieeexplore.ieee.org/document/9415064"
+url_preprint = "https://arxiv.org/abs/2102.07805"
 url_code = "https://github.com/smstrzd/IntegratedGradCAM"
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "https://sigport.org/sites/default/files/docs/ICASSP-IGCAM.pdf"
 url_video = ""
-url_poster = ""
+url_poster = "https://sigport.org/sites/default/files/docs/IG-CAM_Poster.pdf"
 url_source = ""
 
 # Custom links (optional).
@@ -62,3 +62,22 @@ math = false
   focal_point = "Center"
 
 +++
+
+# Cite 
+Consider citing our work as below, if you find it useful in your research:
+```
+@INPROCEEDINGS{9415064,
+  author={Sattarzadeh, Sam and Sudhakar, Mahesh and Plataniotis, Konstantinos N. and Jang, Jongseong and Jeong, Yeonjeong and Kim, Hyunwoo},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Integrated Grad-Cam: Sensitivity-Aware Visual Explanation of Deep Convolutional Networks Via Integrated Gradient-Based Scoring}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1775-1779},
+  doi={10.1109/ICASSP39728.2021.9415064}}
+
+```
+
+---
+
+
