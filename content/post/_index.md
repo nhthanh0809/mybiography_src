@@ -1,5 +1,8 @@
----
-title: Posts
+<!-- ---
+title: my blog post
+title: Semantic Input Sampling for Explanation (SISE) - A Technical Description
+date: 2020-10-07
+tags: "XAI"
 
 # View.
 #   1 = List
@@ -11,4 +14,4 @@ view: 2
 header:
   caption: ""
   image: ""
----
+--- -->
