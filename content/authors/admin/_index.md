@@ -44,7 +44,7 @@ user_groups:
   - Visitors
 ---
 * [x] Computer Vision Research Engineer at [Musashi Auto Parts Canada (Musashi AI)](https://musashiamericas.com/ai-project/ "Musashi AI").
-* [x] Former Post-graduate Research Associate at Bell Multimedia Laboratory at the University of Toronto , working in eXplainable Artificial Intelligence (XAI) along with [LG AI Research](https://www.lgresearch.ai/).
+* [x] Former Post-graduate Research Associate at Bell Multimedia Laboratory where I worked in eXplainable Artificial Intelligence (XAI) along with [LG AI Research](https://www.lgresearch.ai/).
 * [x] [Master's graduate](https://www.parchment.com/u/award/b88abb8e7a87635160f5ec53e885a7e8) in **Computer Vision** and **Robotics** from the Department of Electrical and Computer Engineering (ECE) at the [University of Toronto](https://www.utoronto.ca/) (Class of 2020).
 * [x] Detail-oriented Machine Learning (AI) Engineer with 2+ years of full-time work experience in backend software development, database management (SQL), and application support.
 * [x] Our paper on the novel XAI algorithm [Semantic Input Sampling for Explanation](https://ojs.aaai.org/index.php/AAAI/article/view/17384) was ACCEPTED and PRESENTED at **AAAI-21** conference.
