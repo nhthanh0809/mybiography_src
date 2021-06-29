@@ -9,25 +9,26 @@ tags: "XAI"
 #   3 = Card
 view: 2
 
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: "Technical Blog of SISE XAI algorithm"
-  image: "static/sise-blog.jpg"
 ---
 
-> **TL;DR**
->
-> * We propose a state-of-the-art post-hoc CNN specific Visual XAI algorithm - **SISE**.
-> * Input      <-  A test image; The trained model
-> * Output     ->  A visual 2D heatmap 
-> * Properties :   Noise-free, High resolution, Class discriminative and Correlates to model's prediction
+**Please find an updated article about our XAI algorithm (SISE) written by LG AI Research [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
+
+
+```
+TL;DR
+
+* We propose a state-of-the-art post-hoc CNN specific Visual XAI algorithm - SISE.
+* Input      :  A test image; The trained model
+* Output     :  A visual 2D heatmap 
+* Properties :  Noise-free, High resolution, Class discriminative and Correlates to model's prediction
+```
 
 # Need for XAI
 
 Deep Neural models based on Convolutional Neural Networks (CNNs) have rendered inspiring breakthroughs in a wide variety of computer vision tasks. However, *the lack of interpretability* hurdles the understanding of decisions made by these models. This diminishes the trust consumers have for CNNs and limits the interactions between users and systems established based on such models.
 
 <p align="center">
-    <img src="docs/xai_need.JPG" width="500" height="250" alt="XAI_need" />
+    <img src="static/xai_need.JPG" width="500" height="250" alt="XAI_need" />
     <br>
     <em>Fig. 1: The Need of Explainable AI (XAI). <a href="https://www.darpa.mil/program/explainable-artificial-intelligence" target="_blank">Source</a></em>
 </p>
@@ -57,7 +58,7 @@ To address such limitations while enhancing their strength, we propose a *CNN-sp
 # Methodology
 
 <p align="center">
-    <img src="docs/arch_box.svg" alt="SISE_Architecture_block" />
+    <img src="static/arch_box.svg" alt="SISE_Architecture_block" />
     <br>
     <em>Fig. 2: Global overview of the Proposed framework</em>
 </p>
@@ -65,7 +66,7 @@ To address such limitations while enhancing their strength, we propose a *CNN-sp
 As sketched in Fig. 2, SISE consists of **four phases**. In the `first phase`, multiple layers of the model are selected and a set of corresponding output feature maps are extracted. In the `second phase`, for each set of feature maps, a subset containing the most important feature maps are sampled with a backward pass. 
 
 <p align="center">
-    <img src="docs/SISE_architecture.png" alt="SISE_architecture" />
+    <img src="static/SISE_architecture.png" alt="SISE_architecture" />
     <br>
     <em>Fig. 3: Schematic of SISE's layer visualization framework (first three phases). The procedure in this framework is applied to multiple layers and is followed by the fusion framework (as in Fig. 6)</em>
 </p>
@@ -99,7 +100,7 @@ where <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\mu" title="\
 A visual comparison of such created attribution masks in our approach with random masks in Fig. 4 emphasizes such advantages discussed.
 
 <p align="center">
-    <img src="docs/attribution_mask.svg" alt="attribution_mask" />
+    <img src="static/attribution_mask.svg" alt="attribution_mask" />
     <br>
     <em>Fig. 4: Qualitative comparison of (a) attribution masks derived from different blocks of a VGG16 network as in SISE, with (b) random masks employed in RISE.</em>
 </p>
@@ -111,7 +112,7 @@ As SISE extracts the feature maps from multiple layers in its first phase, we he
 We study a simulation experiment as in “Veit et al.” [5], where the corresponding test errors are reported for removing a layer individually from a residual network. It was observed as in Fig. 5 that removing convolutional layers individually does not affect the network, while a *significant degradation* in test performance is recorded only when the **pooling layers** are removed.
 
 <p align="center">
-    <img src="docs/pooling_screenshot.JPG" width="450" height="275" alt="pooling_screenshot" />
+    <img src="static/pooling_screenshot.JPG" width="450" height="275" alt="pooling_screenshot" />
     <br>
     <em>Fig. 5: Screenshot of simulation results from [5] claiming that the importance of downsampling layers.
 </em>
@@ -122,7 +123,7 @@ Based on this hypothesis and result, most of the data in each model can be colle
 **Fusion Block**
 
 <p align="center">
-    <img src="docs/fusion_framework.svg" alt="fusion_framework" />
+    <img src="static/fusion_framework.svg" alt="fusion_framework" />
     <br>
     <em>Fig. 6: The proposed fusion framework for a CNN with 5 convolutional blocks.</em>
 </p>
@@ -139,18 +140,6 @@ Quantitative analysis includes evaluation results categorized into *ground truth
 
 The evaluation results are shown in Tables 1 and 2 below which indicates the superior ability of SISE in providing satisfying, high-resolution, and complete explanation maps that provide a precise visual analysis of the model’s predictions and perspective. For each metric, the best is shown in **bold**.  Except for Drop%, the higher is better for all other metrics. 
 
-<!--
-<p align="center">
-    <img src="docs/pascal_results.JPG" alt="pascal_results" />
-    <br>
-    <em>Table 1: Results of ground truth-based and model truth-based metrics for state-of-the-art XAI methods along with SISE (proposed) on two networks (VGG16 and ResNet-50) trained on PASCAL VOC 2007 dataset. </em>
-</p>
-<p align="center">
-    <img src="docs/coco_results.JPG" alt="coco_results" />
-    <br>
-    <em>Table 2: Results of the state-of-the-art XAI methods compared with SISE on two networks (VGG16 and ResNet-50) trained on MS COCO 2014 dataset.</em>
-</p>
--->
 
 |     Model     |   Metric  |  Grad-CAM | Grad-CAM++ | Extremal  Perturbation |  RISE | Score-CAM | Integrated Gradient | FullGrad |    SISE   |
 |:-------------:|:---------:|:---------:|:----------:|:----------------------:|:-----:|:---------:|:-------------------:|:--------:|:---------:|
@@ -187,13 +176,13 @@ The evaluation results are shown in Tables 1 and 2 below which indicates the sup
 Based on explanation quality, we have compared SISE with other state-of-the-art methods on sample images from the Pascal dataset in Fig. 7 and MS COCO dataset in Fig. 8. Images with both normal-sized and small object instances are shown along with their corresponding confidence scores. 
 
 <p align="center">
-    <img src="docs/pascal_webpage.svg" alt="pascal_webpage" />
+    <img src="static/pascal_webpage.svg" alt="pascal_webpage" />
     <br>
     <em>Fig. 7: Qualitative comparison of SISE with other state-of-the-art XAI methods with a ResNet-50 model on the Pascal VOC 2007 dataset.</em>
 </p>
 
 <p align="center">
-    <img src="docs/coco_webpage.svg" alt="coco_webpage" />
+    <img src="static/coco_webpage.svg" alt="coco_webpage" />
     <br>
     <em>Fig. 8: Explanations of SISE along with other conventional methods from a VGG16 model on the MS COCO 2014 dataset.</em>
 </p>
@@ -207,8 +196,12 @@ Based on explanation quality, we have compared SISE with other state-of-the-art 
 * Ground truth-based metrics are utilized for proving the superior visual quality of our method.
 * Model truth-based metrics also used along with the sanity checks to verify the performance of SISE in investigating the behavior of the models accurately.
 
+---
+**More resources like Poster, Slides, Video and PDF are available [here](https://msudhakar.com/publication/sise/).**
 
-**For more detailed information on each specific sections, please see our [preprint paper](https://arxiv.org/pdf/2010.00672.pdf).**
+**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the LG AI Research**
+
+---
 
 # Cite 
 Consider citing our work as below, if you find it useful in your research:
@@ -246,5 +239,3 @@ pages={11639-11647} }
 [9]. Fong, R.; Patrick, M.; and Vedaldi, A. 2019. Understanding deep networks via extremal perturbations and smooth masks. In Proceedings of the IEEE International Conference on Computer Vision, 2950–2958.
 
 ---
-
-**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the LG AI Research**
