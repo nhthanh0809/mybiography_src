@@ -74,7 +74,8 @@ Consider citing our work as below, if you find it useful in your research:
   volume={},
   number={},
   pages={1775-1779},
-  doi={10.1109/ICASSP39728.2021.9415064}}
+  doi={10.1109/ICASSP39728.2021.9415064}
+}
 
 ```
 
