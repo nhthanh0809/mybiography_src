@@ -11,17 +11,20 @@ view: 2
 
 ---
 
-**Please find an updated article about our XAI algorithm (SISE) written by LG AI Research [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
-
-
 ```
 TL;DR
 
 * We propose a state-of-the-art post-hoc CNN specific Visual XAI algorithm - SISE.
 * Input      :  A test image; The trained model
 * Output     :  A visual 2D heatmap 
-* Properties :  Noise-free, High resolution, Class discriminative and Correlates to model's prediction
+* Properties :  Noise-free, High resolution, Class discriminative and Correlates 
+                to model's prediction.
 ```
+
+---
+**Please find an updated article about our XAI algorithm (SISE) written by LG AI Research [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
+
+---
 
 # Need for XAI
 
@@ -112,7 +115,7 @@ As SISE extracts the feature maps from multiple layers in its first phase, we he
 We study a simulation experiment as in “Veit et al.” [5], where the corresponding test errors are reported for removing a layer individually from a residual network. It was observed as in Fig. 5 that removing convolutional layers individually does not affect the network, while a *significant degradation* in test performance is recorded only when the **pooling layers** are removed.
 
 <p align="center">
-    <img src="static/pooling_screenshot.JPG" width="450" height="275" alt="pooling_screenshot" />
+    <img src="static/pooling_screenshot.png" width="500" height="275" alt="pooling_screenshot" />
     <br>
     <em>Fig. 5: Screenshot of simulation results from [5] claiming that the importance of downsampling layers.
 </em>
@@ -199,7 +202,8 @@ Based on explanation quality, we have compared SISE with other state-of-the-art 
 ---
 **More resources like Poster, Slides, Video and PDF are available [here](https://msudhakar.com/publication/sise/).**
 
-**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the LG AI Research**
+---
+**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and the LG AI Research.**
 
 ---
 
@@ -215,7 +219,8 @@ journal={Proceedings of the AAAI Conference on Artificial Intelligence},
 author={Sattarzadeh, Sam and Sudhakar, Mahesh and Lem, Anthony and Mehryar, Shervin and Plataniotis, Konstantinos N and Jang, Jongseong and Kim, Hyunwoo and Jeong, Yeonjeong and Lee, Sangmin and Bae, Kyunghoon}, 
 year={2021}, 
 month={May}, 
-pages={11639-11647} }
+pages={11639-11647} 
+}
 
 ```
 
