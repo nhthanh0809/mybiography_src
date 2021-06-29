@@ -1,7 +1,7 @@
 ---
 title: Semantic Input Sampling for Explanation (SISE) - A Technical Description
 date: 2020-10-07 11:35:41 +0000
-tags: "XAI"
+tags: "XAI", "Deep Learning", "Python", "Research"
 
 # View.
 #   1 = List
@@ -9,6 +9,7 @@ tags: "XAI"
 #   3 = Card
 view: 2
 
+math: True
 ---
 
 ```
@@ -22,7 +23,7 @@ TL;DR
 ```
 
 ---
-**Please find an updated article about our XAI algorithm (SISE) written by LG AI Research [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
+**Please find an updated article about our XAI algorithm (SISE) written by {{< hl >}}LG AI Research{{< /hl >}} [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
 
 ---
 
@@ -48,7 +49,7 @@ Our work particularly addresses the problem of Visual Explanation for images, wh
 
 # Contribution
 
-We introduce a novel XAI algorithm that we presented at the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**), which offers both **spatial resolution** and **explanation completeness** in its output explanation map by 
+We introduce a novel XAI algorithm that we presented at the {{< hl >}}35th AAAI Conference on Artificial Intelligence{{< /hl >}} (**AAAI-21**), which offers both **spatial resolution** and **explanation completeness** in its output explanation map by 
 1. using multiple layers from the “intermediate blocks” of the target CNN,
 2. selecting crucial feature maps from the outputs of the layers,
 3. employing an attribution-based technique for input sampling to visualize the perspective of each layer, and 

@@ -21,7 +21,7 @@ featured = true
 # Projects (optional).
 projects = ""
 categories = ""
-tags = "XAI"
+tags = "XAI", "Deep Learning", "Python", "Research"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
