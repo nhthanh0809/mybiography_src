@@ -48,7 +48,7 @@ Our work particularly addresses the problem of Visual Explanation for images, wh
 
 # Contribution
 
-We introduce a novel XAI algorithm that we presented at the {{< hl >}}35th AAAI Conference on Artificial Intelligence{{< /hl >}} (**AAAI-21**), which offers both **spatial resolution** and **explanation completeness** in its output explanation map by 
+We introduce a novel XAI algorithm that we presented at the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**), which offers both **spatial resolution** and **explanation completeness** in its output explanation map by 
 1. using multiple layers from the “intermediate blocks” of the target CNN,
 2. selecting crucial feature maps from the outputs of the layers,
 3. employing an attribution-based technique for input sampling to visualize the perspective of each layer, and 
