@@ -39,14 +39,13 @@ links:
     url: 'https://github.com/smahesh2694/MVTec_GradCAM/'
     
 ---
+## [NEU_XAI](https://github.com/smahesh2694/NEU_XAI/)
 
 * Developed and studied {{< hl >}}XAI algorithms{{< /hl >}} that generates saliency maps according to the importance of each corresponding pixels of the input test image towards the Machine Learning model's predictive accuracy, with the aim of decoding complex `black-box` models. 
 
-## [NEU_XAI](https://github.com/smahesh2694/NEU_XAI/)
+* This repo contains keras implementation of few XAI algorithms on [NEU surface defect dataset.](http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html)
 
-This repo contains keras implementation of few XAI algorithms on [NEU surface defect dataset.](http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html)
-
-Repo consists of :
+Directory Structure:
 * NEU steel surface defect database
   * Original train images
 * NEU steel surface defect database - Test Split
