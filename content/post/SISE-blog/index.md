@@ -9,7 +9,6 @@ tags: "XAI", "Deep Learning", "Python", "Research"
 #   3 = Card
 view: 2
 
-math: True
 ---
 
 ```
@@ -23,7 +22,7 @@ TL;DR
 ```
 
 ---
-**Please find an updated article about our XAI algorithm (SISE) written by {{< hl >}}LG AI Research{{< /hl >}} [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
+**Please find an updated article about our XAI algorithm (SISE) written by LG AI Research [here](https://www.lgresearch.ai/blog/view/?seq=67) (English) or [here](https://m.post.naver.com/viewer/postView.nhn?volumeNo=30627518&memberNo=52249799) (Korean).**
 
 ---
 
