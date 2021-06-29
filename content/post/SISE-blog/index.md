@@ -213,15 +213,15 @@ Based on explanation quality, we have compared SISE with other state-of-the-art 
 Consider citing our work as below, if you find it useful in your research:
 ```
 @article{Sattarzadeh_Sudhakar, 
-title={Explaining Convolutional Neural Networks through Attribution-Based Input    Sampling and Block-Wise Feature Aggregation}, 
-volume={35}, 
-url={https://ojs.aaai.org/index.php/AAAI/article/view/17384}, 
-number={13}, 
-journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
-author={Sattarzadeh, Sam and Sudhakar, Mahesh and Lem, Anthony and Mehryar, Shervin and Plataniotis, Konstantinos N and Jang, Jongseong and Kim, Hyunwoo and Jeong, Yeonjeong and Lee, Sangmin and Bae, Kyunghoon}, 
-year={2021}, 
-month={May}, 
-pages={11639-11647} 
+  title={Explaining Convolutional Neural Networks through Attribution-Based Input Sampling and Block-Wise Feature Aggregation}, 
+  volume={35}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/17384}, 
+  number={13}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Sattarzadeh, Sam and Sudhakar, Mahesh and Lem, Anthony and Mehryar, Shervin and Plataniotis, Konstantinos N and Jang, Jongseong and Kim, Hyunwoo and Jeong, Yeonjeong and Lee, Sangmin and Bae, Kyunghoon}, 
+  year={2021}, 
+  month={May}, 
+  pages={11639-11647} 
 }
 
 ```

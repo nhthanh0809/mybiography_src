@@ -25,20 +25,16 @@ links:
     name: View Code 
     url: 'https://github.com/smahesh2694/Object_Detection_and_Instance_Segmentation'
 ---
-This assignment focuses on 2D object detection and instance segmentation using the
-depth data. Motivated by the KITTI vision challenge for object detection and tracking, disparity
-map between the corresponding images from left (p2) and right (p3) camera are provided. Depth
-map for all images are estimated using the given disparity and calibration information, and the
-results are attached along the submission as advised. An off-the-shelf configured 2D object
-detection algorithm YOLO v3 pre-trained on COCO dataset is provided for direct implementation.
-By tuning the confidence and non-maxima suppression threshold values, all cars in the frame of
-left image are detected and attached in this report. For each detection of objects with label ‘car’,
-the average depth is calculated neglecting the values with zero depth. Then a heuristic way for
-instance segmentation is implemented, to calculate the range of depth values to be considered
-as that of car, based on the average depth. More detailed information regarding the
-implementation is provided under each corresponding section. 
+* This assignment focuses on `2D object detection and instance segmentation` using the depth data. 
+* Motivated by the {{< hl >}}KITTI vision challenge{{< /hl >}} for object detection and tracking, `disparity map` between the corresponding images from left (p2) and right (p3) camera are provided.
+* `Depth map` for all images are estimated using the given disparity and calibration information, and the results are attached along the submission as advised. 
+* An off-the-shelf configured 2D object detection algorithm `YOLO v3` pre-trained on COCO dataset is provided for direct implementation.
+* By tuning the confidence and non-maxima suppression threshold values, all cars in the frame of left image are detected and attached in this report. 
+* For each detection of objects with label ‘car’, the `average depth` is calculated neglecting the values with zero depth. 
+* Then a `heuristic way` for instance segmentation is implemented, to calculate the range of depth values to be considered as that of car, based on the average depth.
+* More detailed information regarding the implementation is provided under each corresponding section. 
 
-**NOTE:** Please upgrade to the latest opencv version to avoid errors.
+**NOTE:** Please upgrade to the latest `OpenCV` version to avoid errors.
 
 1. Kindly create new folders inorder to save results.
 	<ul>
@@ -48,4 +44,4 @@ implementation is provided under each corresponding section.
 	</ul> 
 	
 2. The bounding boxes are saved as numpy arrays and accessed later 
-during the instance segmentation process. So it's important to follow step 1.
+during the instance segmentation process. So it's imperative to follow step 1.

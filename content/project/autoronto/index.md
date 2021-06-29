@@ -23,8 +23,9 @@ image:
  
 ---
 
-Worked in the Simulation and Experimentation team of <a href="https://www.autodrive.utoronto.ca/" target="_blank">**aUToronto**</a> 
-(U of T’s self driving car team &amp; Winner of first two years of <a href="https://www.sae.org/attend/student-events/autodrive-challenge/" target="_blank">SAE/GM AutoDrive challenge</a>), designing and building virtual scenarios for the ego vehicle to drive through, thereby testing the pedestrian detection and tracking stack 
-by exporting the virtual sensor data to ROS environment. 
-\
-This is one of the important module of third year's **MathWorks Simulation Challenge**.
+* Worked in the Simulation and Experimentation team of <a href="https://www.autodrive.utoronto.ca/" target="_blank">**aUToronto**</a> 
+{{< hl >}}(U of T’s self driving car team){{< /hl >}}.
+
+* **Zeus** - Student built self driving car is the `WINNER` of all 4 years of <a href="https://www.sae.org/attend/student-events/autodrive-challenge/" target="_blank">SAE/GM AutoDrive challenge</a>).
+
+* I designed and built `virtual scenarios` for the ego vehicle to drive through for the **MathWorks Simulation Challenge**, thereby testing the pedestrian detection and tracking stack by exporting the virtual sensor data to `ROS` environment. 

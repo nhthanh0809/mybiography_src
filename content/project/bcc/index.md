@@ -29,22 +29,23 @@ links:
     url: 'https://github.com/smahesh2694/Breast_Cancer_Classification'
  
 ---
-**Breast cancer classification on Keras** (based on the implementaion of CancerNet algorithm by Adrian Rosebrock [1]).
+{{< hl >}}Breast cancer classification on Keras{{< /hl >}} (based on the implementaion of CancerNet algorithm by Adrian Rosebrock [1]).
 
-Breast cancer is the most common form of cancer in women, and invasive ductal carcinoma (IDC) is the most common form of breast cancer. Accurately identifying and categorizing breast cancer subtypes is an important clinical task, and automated methods can be used to save time and reduce error.
+* Breast cancer is the most common form of cancer in women, and `Invasive Ductal Carcinoma ` (IDC) is the most common form of breast cancer. Accurately identifying and categorizing breast cancer subtypes is an important clinical task, and automated methods can be used to save time and reduce error.
 
-The goal of this script is to identify IDC when it is present in otherwise unlabeled histopathology images.
-The dataset consists of 277,524 50x50 pixel RGB digital image patches that were derived from 162 H&E-stained breast histopathology samples.
+* The goal of this script is to identify IDC when it is present in otherwise unlabeled `histopathology` images.
+The dataset consists of 277,524 50x50 pixel RGB digital image patches that were derived from 162 `H&E-stained` breast histopathology samples.
 These images are small patches that were extracted from digital images of breast tissue samples. 
 
-The breast tissue contains many cells but only some of them are cancerous. 
+* The breast tissue contains many cells but only some of them are cancerous. 
 Patches that are labeled "1" contain cells that are characteristic of invasive ductal carcinoma. 
 
-The dataset was originally curated by Janowczyk and Madabhushi and Roa et al. but is available in public domain on Kaggle’s website. 
+* The dataset was originally curated by Janowczyk and Madabhushi and Roa et al. but is available in public domain on Kaggle site. 
 
-For more information about the data used, 
+* For more information about the data used, 
 see [here](https://www.ncbi.nlm.nih.gov/pubmed/27563488) and [here](http://spie.org/Publications/Proceedings/Paper/10.1117/12.2043872).
 
-Reference:
+**Reference:**
+
 [1]. Adrian Rosebrock, Breast cancer classification with Keras and Deep Learning, PyImageSearch, https://www.pyimagesearch.com/2019/02/18/breast-cancer-classification-with-keras-and-deep-learning/ , accessed on 22 February 2019.
 
