@@ -78,27 +78,29 @@ The selected feature maps are then post-processed to create sets of perturbation
 
 **Attribution-Based Input Sampling**
 
-Assume $\Psi:\mathcal{I}\rightarrow\mathbb{R}$ be a trained model that outputs a confidence score for a given input image, where $\mathcal{I}$ is the space of RGB images <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\mathcal{I}=\{I|I:\Lambda\rightarrow\mathbb{R}^{3}\}" title="\mathcal{I}=\{I|I:\Lambda\rightarrow\mathbb{R}^{3}\}" />, and <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\Lambda=\{1,...,H\}&space;\times&space;\{1,...,W\}" title="\Lambda=\{1,...,H\} \times \{1,...,W\}" /> is the set of locations (pixels) in the image. Given any model and image, the goal of an explanation algorithm is to reach a unified explanation map <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;S_{I,\Psi}(\lambda)" title="S_{I,\Psi}(\lambda)" />, that assigns an "importance value" to each location in the image <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;(\lambda&space;\in&space;\Lambda)" title="(\lambda \in \Lambda)" />.
+Assume $\Psi:\mathcal{I}\rightarrow\mathbb{R}$ be a trained model that outputs a confidence score for a given input image, where $\mathcal{I}$ is the space of RGB images $\mathcal{I}=\{I|I:\Lambda\rightarrow\mathbb{R}^{3}\}$, and $\Lambda=\{1,...,H\} \times \{1,...,W\}$ is the set of locations (pixels) in the image. 
 
-The explanation maps are represented as <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;S_{I,\Psi}(\lambda)=\mathbb{E}_{M}&space;[\Psi(I\odot&space;m)\cdot&space;C_{m}(\lambda)]" title="S_{I,\Psi}(\lambda)=\mathbb{E}_{M} [\Psi(I\odot m)\cdot C_{m}(\lambda)]" />, 
+Given any model and image, the goal of an explanation algorithm is to reach a unified explanation map $S_{I,\Psi}(\lambda)$, that assigns an "importance value" to each location in the image $(\lambda \in \Lambda)$. The explanation maps are represented as $$S_{I,\Psi}(\lambda)=\mathbb{E}_{M} [\Psi(I\odot m)\cdot C_{m}(\lambda)]$$
 
-where the term <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;C_{m}(\lambda)" title="C_{m}(\lambda)" /> indicates the contribution amount of each pixel in the masked image and it is defined as <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;C_{m}(\lambda)=\frac{m(\lambda)}{\sum_{\lambda\in\Lambda}m(\lambda)}" title="C_{m}(\lambda)=\frac{m(\lambda)}{\sum_{\lambda\in\Lambda}m(\lambda)}" />. Here, it can be noted that we normalize them according to the size of perturbation masks to decrease the assigned reward to the background pixels when a high score is reached for a mask with too many activated pixels.
+where the term $C_{m}(\lambda)$ indicates the contribution amount of each pixel in the masked image and it is defined as $$C_{m}(\lambda)=\frac{m(\lambda)}{\sum_{\lambda\in\Lambda}m(\lambda)}$$
+
+Here, it can be noted that we normalize them according to the size of perturbation masks to decrease the assigned reward to the background pixels when a high score is reached for a mask with too many activated pixels.
 
 **Feature Map Selection**
 
-Let <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;l" title="l" /> be a selected layer containing <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;N" title="N" /> feature maps that are 2-dimensional matrices represented as <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;A_{k}^{(l)}&space;(k=\{1,...,N\})" title="A_{k}^{(l)} (k=\{1,...,N\})" />. 
+Let $l$ be a selected layer containing $N$ feature maps that are 2-dimensional matrices represented as $A_{k}^{(l)} (k=\{1,...,N\})$. 
 
 To identify and reject the class-indiscriminative feature maps, we partially backpropagate the signal to the selected layer to score the gradient of model's confidence score to each of the feature maps. These gradient scores are represented as follows:
 
-<img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\alpha_k^{(l)}&space;=&space;\sum_{\lambda^{(l)}&space;\in&space;\Lambda^{(l)}}&space;\frac{\partial&space;\Psi(I)}{\partial&space;A_{k}^{(l)}&space;(\lambda^{(l)})}" title="\alpha_k^{(l)} = \sum_{\lambda^{(l)} \in \Lambda^{(l)}} \frac{\partial \Psi(I)}{\partial A_{k}^{(l)} (\lambda^{(l)})}" />
+$$\alpha_k^{(l)} = \sum_{\lambda^{(l)} \in \Lambda^{(l)}} \frac{\partial \Psi(I)}{\partial A_{k}^{(l)} (\lambda^{(l)})}$$
 
-<img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\beta^{(l)}&space;=&space;\max_{k\in&space;\{1,...,N\}}&space;(&space;\alpha_k^{(l)})" title="\beta^{(l)} = \max_{k\in \{1,...,N\}} ( \alpha_k^{(l)})" />
+$$\beta^{(l)} = \max_{k\in \{1,...,N\}} ( \alpha_k^{(l)})$$
 
-The feature maps with corresponding non-positive gradient scores - <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\alpha_k^{(l)}" title="\alpha_k^{(l)}" />, tend to contain features related to other classes rather than the class of interest. Terming such feature maps as `negative-gradient`, we define the set of **attribution masks** obtained from the `positive-gradient` feature maps, <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;M_d^{(l)}" title="M_d^{(l)}" />, as:
+The feature maps with corresponding non-positive gradient scores ($\alpha_k^{(l)}$), tend to contain features related to other classes rather than the class of interest. Terming such feature maps as `negative-gradient`, we define the set of **attribution masks** obtained from the `positive-gradient` feature maps, $M_d^{(l)}$, as:
 
-<img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;M_d^{(l)}=\{&space;\Omega(A_{k}^{(l)})|k\in&space;\{1,...,N\},&space;\alpha_k^{(l)}<\mu&space;\times&space;\beta^{(l)}&space;\}" title="M_d^{(l)}=\{ \Omega(A_{k}^{(l)})|k\in \{1,...,N\}, \alpha_k^{(l)}<\mu \times \beta^{(l)} \}" />
+$$M_d^{(l)}=\{ \Omega(A_{k}^{(l)})|k\in \{1,...,N\}, \alpha_k^{(l)}<\mu \times \beta^{(l)} \}$$
 
-where <img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;\mu" title="\mu" /> is a parameter that is **0 by default** to discard negative-gradient feature maps while retaining only the positive-gradients.
+where $\mu$ is a parameter that is **0 by default** to discard negative-gradient feature maps while retaining only the positive-gradients.
 
 A visual comparison of such created attribution masks in our approach with random masks in Fig. 4 emphasizes such advantages discussed.
 
