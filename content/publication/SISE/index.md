@@ -65,7 +65,7 @@ math = true
 
 # Overview
 
-A global overview of our proposed framework for SISE describing the multiple phases is attached in the figure below. To know more about each phase in detail along with a summary of our algorithm, please read the [technical blog post](https://smahesh2694.github.io/sise_webpage/sise_blog).
+A global overview of our proposed framework for SISE describing the multiple phases is attached in the figure below. To know more about each phase in detail along with a summary of our algorithm, please read the [technical blog post](https://msudhakar.com/post/sise-blog/).
 
 <p align="center">
     <img src="docs/arch_box.svg" alt="SISE_Architecture_block" />
@@ -103,4 +103,4 @@ pages={11639-11647} }
 
 Our paper has been published virtually at the 35th AAAI Conference on Artificial Intelligence (**AAAI-21**).
 
-**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and LG AI Research**
+**All figures and content published here are owned by the authors at the Multimedia Laboratory at the University of Toronto and LG AI Research.**
