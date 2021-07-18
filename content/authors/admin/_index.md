@@ -1,7 +1,7 @@
 ---
 title: Mahesh Sudhakar
 role: Computer Vision Research Engineer
-avatar_filename: avatar.jpg
+avatar_filename: avatar.JPG
 organizations:
   - name: Musashi Americas
     url: https://musashiamericas.com/
