@@ -7,12 +7,13 @@ organizations:
 superuser: true
 authors:
   - admin
-bio: Computer Vision | Automotive system | Tensor Decomposition | Medical Image Analysis 
+bio: Computer Vision | Automotive system | Tensor Decomposition | Medical Image Analysis | DevOps & MLOps
 interests:
-  - Computer Vision (2D & 3D object recognition)
   - Explainable AI (XAI)
-  - Open world object detection
+  - Medical Image Analysis
+  - Data analytics 
   - N-dimension Tensor data decomposition
+  - DevOps, MLOps, Cloud Computing System (AWS, Azure) 
 social:
   - icon: envelope
     icon_pack: fas
@@ -42,7 +43,7 @@ user_groups:
   - Researchers
   - Visitors
 ---
-* [x] Collaborated AI specialist/AI Solution architecture at Viceph - an AI driven application for orthodontist [Viceph.net](https://www.viceph.net/).
+* [x] Collaborative AI researcher/AI specialist at Viceph - an AI driven application for orthodontist [Viceph.net](https://www.viceph.net/).
 * [x] Researching member at Vietnam Orthodontic Research Group [VORG]
 * [x] Research Engineer with +7 years of full-time work experience of Computer Vision at [Panasonic R&D Center Vietnam](https://www.linkedin.com/company/panasonic-r-d-center-vietnam/ "PRDCV").
 * [x] Software engineer with +2 years of experience of Machine Vision/Embedded system at Foxconn Vietnam R&D Center [Foxconn Company](https://www.linkedin.com/company/foxconn/).

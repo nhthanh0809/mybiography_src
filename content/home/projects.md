@@ -31,14 +31,14 @@ subtitle = "Visit my [Github profile](https://github.com/nhthanh0809) for comple
     name = "xAI"
     tag = "xAI"
   [[content.filter_button]]
-    name = "Machine Vision"
-    tag = "Machine Vision"
+    name = "DevOps & MLOps"
+    tag = "DevOps & MLOps"
   [[content.filter_button]]
     name = "Tensor Decomposition"
     tag = "Tensor Decomposition"
   [[content.filter_button]]
-    name = "Medical"
-    tag = "Medical"
+    name = "Medical image"
+    tag = "Medical image"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

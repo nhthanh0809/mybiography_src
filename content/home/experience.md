@@ -19,28 +19,28 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Collaboration AI specialist/AI Solution architecture"
-  company = "Viceph"
+  title = "Collaborative AI researcher/AI Specialist/Co-developer"
+  company = "MEDBrain"
   company_url = "Viceph.net"
   location = "Hanoi"
-  date_start = "2022-04-01"
+  date_start = "2022-03-01"
   date_end = ""
   description = """
-* Researched and developed AI solutions of medical image processing for orthodontic analysis .
-* Built up AI driven application for orthodontist (Viceph.net).
+* Researching and developing AI solution for medical image processing and for orthodontic analysis.
+* Co-developer of [Viceph](https://www.viceph.net/) - An AI Driven Engine for orthodontist.
 """
 
 [[experience]]
-  title = "Project manager/AI architecture solution engineer"
+  title = "Assistant Principal Engineer/AI specialist"
   company = "Panasonic R&D Center Vietnam"
   company_url = "https://www.linkedin.com/company/panasonic-r-d-center-vietnam/"
   location = "Hanoi"
   date_start = "2020-04-01"
   date_end = ""
   description = """
-* Researched and proposed technical solutions related 2D and 3D computer vision for developing Panasonic advanced technology products.
-* Project manager and technical leader in AI solution development projects.
-* Built up AI computer vision team for company.
+* Researching and developing AI related technical solutions for developing Panasonic advanced technology products.
+* Project manager and technical leader at Advanced Technology Solution Department at Panasonic R&D Center Vietnam.
+* Building-up and training AI team for company.
 """
   
 [[experience]]
@@ -51,8 +51,8 @@ date_format = "Jan 2006"
   date_start = "2018-09-04"
   date_end = "2020-04-01"
   description = """
-* Researched and implemented digital image processing algorithms and deep learning models for computer vision projects such as: 2D image object recognition and segmentation, 3D BIM modeling, objects tracking for Panasonic Lumix camera, defect inspection in factory, etc.
-* Proposed and developed model compression methods such as quantization, pruning for deep learning models that deployed on edge devices and mobile phones. 
+* Researched and developed digital image processing algorithms and deep learning models for computer vision projects such as: 2D image object recognition and segmentation, 3D BIM modeling, objects tracking for Panasonic Lumix camera, defect inspection in factory, etc.
+* Researched and developed deep learning model compression methods such as quantization, pruning for deep learning models that can be deployed on edge devices and mobile phones. 
 """
 
 [[experience]]
@@ -63,8 +63,8 @@ date_format = "Jan 2006"
   date_start = "2017-03-01"
   date_end = "2018-09-01"
   description = """
-* Developed Linux-based embedded system for GPON/dual bands WiFi router, Linux/Android Set Top box
-* Designed and developed Automatic Optical Inspection (AOI) system for defect detecting in factory production lines such as defects inspection on printed circuit board (PCB), electrical components detection, solder paste checking, cover surface checking
+* Developed Linux-based embedded system for GPON/dual bands WiFi router, Linux/Android Set Top box.
+* Designed and developed Automatic Optical Inspection (AOI) system for detecting defects in factory production lines such as defects inspection on printed circuit board (PCB), electrical components detection, solder paste checking, cover surface checking, etc.
 """
   
 [[experience]]
@@ -75,7 +75,7 @@ date_format = "Jan 2006"
   date_start = "2013-09-01"
   date_end = "2015-02-28"
   description = """
-* Developed and deployed telecommunication system for Security force and Military.
+* Deployed telecommunication system for Security force and Military.
 * Transferred Security technologies and products for B2B business.
   """
   
