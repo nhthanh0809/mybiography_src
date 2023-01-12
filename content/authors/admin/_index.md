@@ -9,6 +9,7 @@ authors:
   - admin
 bio: Computer Vision | Automotive system | Tensor Decomposition | Medical Image Analysis | DevOps & MLOps
 interests:
+  - Deep learning for computer vision
   - Explainable AI (XAI)
   - Medical Image Analysis
   - Data analytics 
