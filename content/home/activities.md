@@ -10,10 +10,11 @@ subtitle = ""
 
 +++
 ## Activities
-* Joining Panasonic Technology Symposium 2022 - Synthesizing data for 360-Degree image object detection using 3D Object Models
-* Joining Panasonic Technology Symposium 2021 - 3D BIM automatic modeling for digital twin solution
-* Joining Panasonic Technology Symposium 2020 - Object tracking and segmentation by lightweight Siamese network 
-
+* Registered conference poster to [Association of Orthodontists Competition - AOSC](https://aoscongress.com/) - [Fully automated solution for Cervical Vertebral Maturation (CVM) assessment by deep learning approaches](files/AOSC_poster_preprint.pdf)
+* Joining Corporation's Technology Symposium 2022 - Synthesizing data for 360-Degree image object detection using 3D Object Models
+* Joining Corporation's Technology Symposium 2021 - [3D BIM automatic modeling for digital twin solution](files/TS2021.pdf)
+* Joining Corporation's Technology Symposium 2020 - [Object tracking and segmentation by lightweight Siamese network](files/TS2020.pdf)
+* Key member as translator and reviewer (Nguyễn Huy Thanh - Thomas Nguyen) at [DLBOOKVN](https://dlbookvn.gitlab.io/about/) - A "Non-for-profit" project that aim to translate [Deep Learning book](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) to Vietnamese, contributing to Vietnamese AI community.
 ## Honours
 * Panasonic R&D Center Vietnam - Company best project award - 2021
 * Panasonic R&D Center Vietnam - Company best employee award - 2020 

@@ -18,6 +18,7 @@ tags:
   - Catboost
   - XGBoost
   - LightGBM
+  - Bioimage informatics
   
 external_link: 
 

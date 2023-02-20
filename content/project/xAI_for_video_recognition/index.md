@@ -19,7 +19,7 @@ tags:
 external_link: 
 
 image:
-  filename: xAI.PNG
+  filename: featured.PNG
   focal_point: Smart
   preview_only: false
   caption: 

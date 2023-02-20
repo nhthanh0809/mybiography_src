@@ -26,12 +26,12 @@ date_format = "Jan 2006"
   date_start = "2022-03-01"
   date_end = ""
   description = """
-* Researching and developing AI solution for medical image processing and for orthodontic analysis.
+* Researching and developing AI solution for medical image processing/ bioimage informatics and for orthodontic analysis.
 * Co-developer of [Viceph](https://www.viceph.net/) - An AI Driven Engine for orthodontist.
 """
 
 [[experience]]
-  title = "Assistant Principal Engineer/AI specialist"
+  title = "Assistant Manager/Assistant Principal Engineer/AI specialist/"
   company = "Panasonic R&D Center Vietnam"
   company_url = "https://www.linkedin.com/company/panasonic-r-d-center-vietnam/"
   location = "Hanoi"
@@ -40,6 +40,7 @@ date_format = "Jan 2006"
   description = """
 * Researching and developing AI related technical solutions for developing Panasonic advanced technology products.
 * Project manager and technical leader at Advanced Technology Solution Department at Panasonic R&D Center Vietnam.
+* Building-up AI related-business for Advanced Technology Solution Department.
 * Building-up and training AI team for company.
 """
   
@@ -51,7 +52,7 @@ date_format = "Jan 2006"
   date_start = "2018-09-04"
   date_end = "2020-04-01"
   description = """
-* Researched and developed digital image processing algorithms and deep learning models for computer vision projects such as: 2D image object recognition and segmentation, 3D BIM modeling, objects tracking for Panasonic Lumix camera, defect inspection in factory, etc.
+* Researched and developed digital image processing algorithms and AI models for computer vision projects such as: 2D image object recognition and segmentation, 3D BIM modeling, objects tracking for Panasonic Lumix camera, defect inspection in factory, etc.
 * Researched and developed deep learning model compression methods such as quantization, pruning for deep learning models that can be deployed on edge devices and mobile phones. 
 """
 

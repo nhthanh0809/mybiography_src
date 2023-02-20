@@ -15,7 +15,7 @@ tags:
   - Cephalometric
   - Landmark detection
   - Deep learning
-  - Biomedical imaging
+  - Bioimage informatics
 
 external_link: 
 
